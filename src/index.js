@@ -74,7 +74,7 @@ deleteBookForm.addEventListener('submit', (e) => {
 })
 
 // get a single document
-const docRef = doc(db, 'books', 'nzijpAcnbayxPv62GOkG')
+const docRef = doc(db, 'books', 'GIkgIcVFEX9sTaynZGX3')
 
 const unsubDoc = onSnapshot(docRef, (doc) => {
   console.log(doc.data(), doc.id)
